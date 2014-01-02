@@ -1,4 +1,4 @@
-Skeleton Cookbook
+Passenger for Apache2 Cookbook
 =================
 
 Requirements
@@ -6,23 +6,25 @@ Requirements
 
 ### Platform:
 
-*List supported platforms here*
+Ubuntu 12.0.4LTS
 
 ### Cookbooks:
 
-*List cookbook dependencies here*
+apt
+build-essential
+apache2
 
 Attributes
 ----------
 
-*List attributes here*
+None
 
 Recipes
 -------
 
 ### passenger-apache2::default
 
-*Explain what the recipe does here*
+Installs Passenger for Apache 2.
 
 Testing
 -------

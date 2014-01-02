@@ -18,4 +18,20 @@
 # limitations under the License.
 #
 
-# Install/configure something here
+include_recipe 'build-essential::default'
+
+package 'apt-transport-https'
+
+apt_repository 'phusion-passenger' do
+  uri          'https://oss-binaries.phusionpassenger.com/apt/passenger'
+  distribution node['lsb']['codename']
+  components   ['main']
+  keyserver    'keyserver.ubuntu.com'
+  key          '561F9B9CAC40B2F7'
+end
+
+package 'apache2-prefork-dev'
+
+package 'libcurl4-gnutls-dev'
+
+package 'libapache2-mod-passenger'

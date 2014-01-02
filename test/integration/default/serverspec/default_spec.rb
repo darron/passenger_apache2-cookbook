@@ -3,7 +3,12 @@ require 'spec_helper'
 
 # Write integration tests with Serverspec - http://serverspec.org/
 describe 'passenger-apache2::default' do
-  it 'does something' do
-    pending 'Replace this with meaningful tests'
+
+  describe file('/etc/apache2/mods-enabled/passenger.conf') do
+    it { should be_file }
+  end
+
+  describe file('/etc/apache2/mods-enabled/passenger.load') do
+    it { should be_file }
   end
 end
