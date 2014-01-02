@@ -26,6 +26,8 @@ Recipes
 
 Installs Passenger for Apache 2.
 
+NOTE: Currently unsure if it's working as expected - am still building the wrapper cookbook for this project.
+
 Testing
 -------
 
