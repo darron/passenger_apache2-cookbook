@@ -1,6 +1,6 @@
 # encoding: utf-8
 #
-# Cookbook Name:: passenger-apache2
+# Cookbook Name:: passenger_apache2
 # Attributes:: default
 #
 # Copyright (C) 2013, Darron Froese <darron@froese.org>

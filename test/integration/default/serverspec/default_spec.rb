@@ -2,7 +2,7 @@
 require 'spec_helper'
 
 # Write integration tests with Serverspec - http://serverspec.org/
-describe 'passenger-apache2::default' do
+describe 'passenger_apache2::default' do
 
   describe file('/etc/apache2/mods-enabled/passenger.conf') do
     it { should be_file }

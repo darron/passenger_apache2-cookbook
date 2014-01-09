@@ -11,5 +11,5 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[passenger-apache2::default]
+      - recipe[passenger_apache2::default]
     attributes:

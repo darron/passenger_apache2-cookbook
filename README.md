@@ -22,7 +22,7 @@ None
 Recipes
 -------
 
-### passenger-apache2::default
+### passenger_apache2::default
 
 Installs Passenger for Apache 2.
 
@@ -31,7 +31,7 @@ NOTE: Currently unsure if it's working as expected - am still building the wrapp
 Testing
 -------
 
-[![Build Status](https://travis-ci.org/darron/passenger-apache2-cookbook.png?branch=master)](https://travis-ci.org/darron/passenger-apache2-cookbook)
+[![Build Status](https://travis-ci.org/darron/passenger_apache2-cookbook.png?branch=master)](https://travis-ci.org/darron/passenger_apache2-cookbook)
 
 The cookbook provides the following Rake tasks for testing:
 

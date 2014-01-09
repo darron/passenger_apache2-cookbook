@@ -2,7 +2,7 @@
 require 'spec_helper'
 
 # Write unit tests with ChefSpec - https://github.com/sethvargo/chefspec#readme
-describe 'passenger-apache2::default' do
+describe 'passenger_apache2::default' do
   let(:chef_run) { ChefSpec::Runner.new.converge(described_recipe) }
 
   it 'includes the `build-essential` recipe' do
